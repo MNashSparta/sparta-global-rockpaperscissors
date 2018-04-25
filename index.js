@@ -25,14 +25,6 @@ function decideWinner() {
   }
 }
 
-function scoreCounter() {
-  var score = 0;
-  return function() {
-    score++;
-    return score;
-  }
-}
-
 // Game Loop
 while (gameLoop) {
   playerTurn();
